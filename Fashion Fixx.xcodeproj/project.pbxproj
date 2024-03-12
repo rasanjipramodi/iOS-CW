@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		71D7171B2B9F036E009B1FD3 /* Fashion_FixxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7171A2B9F036E009B1FD3 /* Fashion_FixxApp.swift */; };
-		71D7171D2B9F036E009B1FD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7171C2B9F036E009B1FD3 /* ContentView.swift */; };
 		71D7171F2B9F0371009B1FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D7171E2B9F0371009B1FD3 /* Assets.xcassets */; };
 		71D717222B9F0371009B1FD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D717212B9F0371009B1FD3 /* Preview Assets.xcassets */; };
 		71D7172C2B9F0372009B1FD3 /* Fashion_FixxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7172B2B9F0372009B1FD3 /* Fashion_FixxTests.swift */; };
 		71D717362B9F0372009B1FD3 /* Fashion_FixxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717352B9F0372009B1FD3 /* Fashion_FixxUITests.swift */; };
 		71D717382B9F0372009B1FD3 /* Fashion_FixxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717372B9F0372009B1FD3 /* Fashion_FixxUITestsLaunchTests.swift */; };
+		71D717492B9F050C009B1FD3 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71D717452B9F050B009B1FD3 /* Poppins-Medium.ttf */; };
+		71D7174A2B9F050C009B1FD3 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71D717462B9F050C009B1FD3 /* Poppins-Regular.ttf */; };
+		71D7174B2B9F050C009B1FD3 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71D717472B9F050C009B1FD3 /* Poppins-Bold.ttf */; };
+		71D7174C2B9F050C009B1FD3 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71D717482B9F050C009B1FD3 /* Poppins-SemiBold.ttf */; };
+		71D717552B9F08F5009B1FD3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D717542B9F08F5009B1FD3 /* Launch Screen.storyboard */; };
+		71D717572B9F10E9009B1FD3 /* UIExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717562B9F10E9009B1FD3 /* UIExtention.swift */; };
+		71D717592B9F141D009B1FD3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717582B9F141D009B1FD3 /* LoginView.swift */; };
+		71D7175B2B9F1EAF009B1FD3 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7175A2B9F1EAF009B1FD3 /* SignupView.swift */; };
+		71D7175E2B9F3DA1009B1FD3 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 71D7175D2B9F3DA1009B1FD3 /* CountryPicker */; };
+		71D717602B9F3DDD009B1FD3 /* CountryPickerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7175F2B9F3DDD009B1FD3 /* CountryPickerUI.swift */; };
+		71D717622B9F3F80009B1FD3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717612B9F3F7F009B1FD3 /* MainViewModel.swift */; };
+		71D717642B9F4107009B1FD3 /* LineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717632B9F4107009B1FD3 /* LineTextField.swift */; };
+		71D717662B9F780C009B1FD3 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717652B9F780C009B1FD3 /* ForgotPasswordView.swift */; };
+		71D717682B9FCD4F009B1FD3 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717672B9FCD4F009B1FD3 /* RoundButton.swift */; };
+		71D7176A2B9FD018009B1FD3 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717692B9FD018009B1FD3 /* ServiceCall.swift */; };
+		71D7176C2B9FD1C4009B1FD3 /* Globs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7176B2B9FD1C4009B1FD3 /* Globs.swift */; };
+		71D7176F2B9FD738009B1FD3 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7176E2B9FD738009B1FD3 /* UIKitExtension.swift */; };
+		71D717712B9FEE18009B1FD3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717702B9FEE18009B1FD3 /* UserModel.swift */; };
+		71D717732B9FF014009B1FD3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717722B9FF014009B1FD3 /* WelcomeView.swift */; };
+		71D717772B9FF04A009B1FD3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717762B9FF04A009B1FD3 /* MainTabView.swift */; };
+		71D717792B9FFBC4009B1FD3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717782B9FFBC4009B1FD3 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +56,6 @@
 /* Begin PBXFileReference section */
 		71D717172B9F036E009B1FD3 /* Fashion Fixx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fashion Fixx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D7171A2B9F036E009B1FD3 /* Fashion_FixxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fashion_FixxApp.swift; sourceTree = "<group>"; };
-		71D7171C2B9F036E009B1FD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		71D7171E2B9F0371009B1FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71D717212B9F0371009B1FD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		71D717272B9F0372009B1FD3 /* Fashion FixxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fashion FixxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +63,27 @@
 		71D717312B9F0372009B1FD3 /* Fashion FixxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fashion FixxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D717352B9F0372009B1FD3 /* Fashion_FixxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fashion_FixxUITests.swift; sourceTree = "<group>"; };
 		71D717372B9F0372009B1FD3 /* Fashion_FixxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fashion_FixxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71D717452B9F050B009B1FD3 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		71D717462B9F050C009B1FD3 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		71D717472B9F050C009B1FD3 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		71D717482B9F050C009B1FD3 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		71D7174D2B9F0535009B1FD3 /* Fashion-Fixx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Fashion-Fixx-Info.plist"; sourceTree = SOURCE_ROOT; };
+		71D717542B9F08F5009B1FD3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		71D717562B9F10E9009B1FD3 /* UIExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtention.swift; sourceTree = "<group>"; };
+		71D717582B9F141D009B1FD3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		71D7175A2B9F1EAF009B1FD3 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		71D7175F2B9F3DDD009B1FD3 /* CountryPickerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPickerUI.swift; sourceTree = "<group>"; };
+		71D717612B9F3F7F009B1FD3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		71D717632B9F4107009B1FD3 /* LineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineTextField.swift; sourceTree = "<group>"; };
+		71D717652B9F780C009B1FD3 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		71D717672B9FCD4F009B1FD3 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		71D717692B9FD018009B1FD3 /* ServiceCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
+		71D7176B2B9FD1C4009B1FD3 /* Globs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globs.swift; sourceTree = "<group>"; };
+		71D7176E2B9FD738009B1FD3 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
+		71D717702B9FEE18009B1FD3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		71D717722B9FF014009B1FD3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		71D717762B9FF04A009B1FD3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		71D717782B9FFBC4009B1FD3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D7175E2B9F3DA1009B1FD3 /* CountryPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +135,17 @@
 		71D717192B9F036E009B1FD3 /* Fashion Fixx */ = {
 			isa = PBXGroup;
 			children = (
-				71D7171A2B9F036E009B1FD3 /* Fashion_FixxApp.swift */,
-				71D7171C2B9F036E009B1FD3 /* ContentView.swift */,
+				71D7176D2B9FD704009B1FD3 /* Common */,
 				71D7171E2B9F0371009B1FD3 /* Assets.xcassets */,
+				71D7171A2B9F036E009B1FD3 /* Fashion_FixxApp.swift */,
+				71D7174D2B9F0535009B1FD3 /* Fashion-Fixx-Info.plist */,
+				71D717442B9F04D3009B1FD3 /* Fonts */,
+				71D717542B9F08F5009B1FD3 /* Launch Screen.storyboard */,
+				71D717502B9F076D009B1FD3 /* Model */,
 				71D717202B9F0371009B1FD3 /* Preview Content */,
+				71D7174E2B9F0759009B1FD3 /* UICommon */,
+				71D717512B9F0776009B1FD3 /* View */,
+				71D7174F2B9F0763009B1FD3 /* ViewModel */,
 			);
 			path = "Fashion Fixx";
 			sourceTree = "<group>";
@@ -127,6 +175,83 @@
 			path = "Fashion FixxUITests";
 			sourceTree = "<group>";
 		};
+		71D717442B9F04D3009B1FD3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				71D717472B9F050C009B1FD3 /* Poppins-Bold.ttf */,
+				71D717452B9F050B009B1FD3 /* Poppins-Medium.ttf */,
+				71D717462B9F050C009B1FD3 /* Poppins-Regular.ttf */,
+				71D717482B9F050C009B1FD3 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		71D7174E2B9F0759009B1FD3 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				71D717562B9F10E9009B1FD3 /* UIExtention.swift */,
+				71D7175F2B9F3DDD009B1FD3 /* CountryPickerUI.swift */,
+				71D717632B9F4107009B1FD3 /* LineTextField.swift */,
+				71D717672B9FCD4F009B1FD3 /* RoundButton.swift */,
+				71D717692B9FD018009B1FD3 /* ServiceCall.swift */,
+				71D7176B2B9FD1C4009B1FD3 /* Globs.swift */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		71D7174F2B9F0763009B1FD3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				71D717612B9F3F7F009B1FD3 /* MainViewModel.swift */,
+				71D717782B9FFBC4009B1FD3 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		71D717502B9F076D009B1FD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71D717702B9FEE18009B1FD3 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71D717512B9F0776009B1FD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71D717752B9FF024009B1FD3 /* Login */,
+				71D717742B9FF019009B1FD3 /* MainTab */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71D7176D2B9FD704009B1FD3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				71D7176E2B9FD738009B1FD3 /* UIKitExtension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		71D717742B9FF019009B1FD3 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				71D717762B9FF04A009B1FD3 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		71D717752B9FF024009B1FD3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				71D717582B9F141D009B1FD3 /* LoginView.swift */,
+				71D7175A2B9F1EAF009B1FD3 /* SignupView.swift */,
+				71D717652B9F780C009B1FD3 /* ForgotPasswordView.swift */,
+				71D717722B9FF014009B1FD3 /* WelcomeView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +268,9 @@
 			dependencies = (
 			);
 			name = "Fashion Fixx";
+			packageProductDependencies = (
+				71D7175D2B9F3DA1009B1FD3 /* CountryPicker */,
+			);
 			productName = "Fashion Fixx";
 			productReference = 71D717172B9F036E009B1FD3 /* Fashion Fixx.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +343,9 @@
 				Base,
 			);
 			mainGroup = 71D7170E2B9F036E009B1FD3;
+			packageReferences = (
+				71D7175C2B9F3DA1009B1FD3 /* XCRemoteSwiftPackageReference "CountryPicker" */,
+			);
 			productRefGroup = 71D717182B9F036E009B1FD3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +362,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71D717492B9F050C009B1FD3 /* Poppins-Medium.ttf in Resources */,
 				71D717222B9F0371009B1FD3 /* Preview Assets.xcassets in Resources */,
+				71D7174B2B9F050C009B1FD3 /* Poppins-Bold.ttf in Resources */,
+				71D7174C2B9F050C009B1FD3 /* Poppins-SemiBold.ttf in Resources */,
 				71D7171F2B9F0371009B1FD3 /* Assets.xcassets in Resources */,
+				71D7174A2B9F050C009B1FD3 /* Poppins-Regular.ttf in Resources */,
+				71D717552B9F08F5009B1FD3 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +393,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D7171D2B9F036E009B1FD3 /* ContentView.swift in Sources */,
+				71D717682B9FCD4F009B1FD3 /* RoundButton.swift in Sources */,
+				71D7175B2B9F1EAF009B1FD3 /* SignupView.swift in Sources */,
+				71D717572B9F10E9009B1FD3 /* UIExtention.swift in Sources */,
+				71D717792B9FFBC4009B1FD3 /* HomeViewModel.swift in Sources */,
+				71D7176C2B9FD1C4009B1FD3 /* Globs.swift in Sources */,
+				71D717662B9F780C009B1FD3 /* ForgotPasswordView.swift in Sources */,
+				71D717712B9FEE18009B1FD3 /* UserModel.swift in Sources */,
+				71D717602B9F3DDD009B1FD3 /* CountryPickerUI.swift in Sources */,
+				71D7176F2B9FD738009B1FD3 /* UIKitExtension.swift in Sources */,
+				71D717592B9F141D009B1FD3 /* LoginView.swift in Sources */,
 				71D7171B2B9F036E009B1FD3 /* Fashion_FixxApp.swift in Sources */,
+				71D7176A2B9FD018009B1FD3 /* ServiceCall.swift in Sources */,
+				71D717622B9F3F80009B1FD3 /* MainViewModel.swift in Sources */,
+				71D717642B9F4107009B1FD3 /* LineTextField.swift in Sources */,
+				71D717732B9FF014009B1FD3 /* WelcomeView.swift in Sources */,
+				71D717772B9FF04A009B1FD3 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +574,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fashion Fixx/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fashion-Fixx-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +590,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "cw.ios.Fashion-Fixx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,11 +609,15 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Fashion Fixx/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fashion-Fixx-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,9 +625,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "cw.ios.Fashion-Fixx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -582,6 +746,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71D7175C2B9F3DA1009B1FD3 /* XCRemoteSwiftPackageReference "CountryPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mobven/CountryPicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71D7175D2B9F3DA1009B1FD3 /* CountryPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71D7175C2B9F3DA1009B1FD3 /* XCRemoteSwiftPackageReference "CountryPicker" */;
+			productName = CountryPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 71D7170F2B9F036E009B1FD3 /* Project object */;
 }
