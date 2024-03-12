@@ -14,6 +14,7 @@ class HomeViewModel: ObservableObject
     @Published var selectTab: Int = 0
     @Published var txtSearch: String = ""
     
+    
     @Published var showError = false
     @Published var errorMessage = ""
     
@@ -22,9 +23,12 @@ class HomeViewModel: ObservableObject
     @Published var listArr: [ProductModel] = []
     @Published var typeArr: [TypeModel] = []
     
+    
     init() {
         serviceCallList()
     }
+    
+    
     
     //MARK: ServiceCall
     
@@ -68,4 +72,3 @@ class HomeViewModel: ObservableObject
     }
     
 }
-

@@ -40,5 +40,5 @@ struct CategoryCell: View {
 
 
 #Preview {
-    CategoryCell(tObj: TypeModel(dict: ["": ""]))
+    CategoryCell(tObj: TypeModel(dict: ["":""]))
 }

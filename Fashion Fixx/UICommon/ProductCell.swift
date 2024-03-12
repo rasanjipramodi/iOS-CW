@@ -16,12 +16,13 @@ struct ProductCell: View {
     
     var body: some View {
         NavigationLink {
+            //            ProductDetailView(detailVM:  ProductDetailViewModel(prodObj: pObj) )
         } label: {
             VStack{
                 
                 WebImage(url: URL(string: pObj.image ))
                     .resizable()
-                    .indicator(.activity)
+                    .indicator(.activity) // Activity Indicator
                     .transition(.fade(duration: 0.5))
                     .scaledToFit()
                     .frame(width: 100, height: 80)
@@ -41,7 +42,7 @@ struct ProductCell: View {
                 Spacer()
                 
                 HStack{
-                    Text("LKR \(pObj.offerPrice ?? pObj.price, specifier: "%.2f" )")
+                    Text("$\(pObj.offerPrice ?? pObj.price, specifier: "%.2f" )")
                         .font(.customfont(.semibold, fontSize: 18))
                         .foregroundColor(.primaryText)
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
@@ -75,7 +76,11 @@ struct ProductCell: View {
         
     }
 }
-#Preview {
-    ProductCell(pObj: ProductModel(dict: ["": ""] )) {
-        
-    }}
+
+struct ProductCell_Previews: PreviewProvider {
+    static var previews: some View {
+        ProductCell(pObj: ProductModel(dict: ["":""])) {
+            
+        }
+    }
+}

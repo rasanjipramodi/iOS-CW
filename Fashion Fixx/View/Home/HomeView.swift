@@ -109,9 +109,9 @@ struct HomeView: View {
                 
             }
         }
-        .alert(isPresented: $homeVM.showError, content: {
-            Alert(title: Text(Globs.AppName), message: Text(homeVM.errorMessage), dismissButton: .default(Text("OK")) )
-        })
+//        .alert(isPresented: $homeVM.showError, content: {
+//            Alert(title: Text(Globs.AppName), message: Text(homeVM.errorMessage), dismissButton: .default(Text("OK")) )
+//        })
         .ignoresSafeArea()
     }
 }
