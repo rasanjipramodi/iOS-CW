@@ -1,14 +1,14 @@
 //
-//  ProductModel.swift
+//  OrderItemModel.swift
 //  Fashion Fixx
 //
-//  Created by Tharaka Mohotti on 2024-03-12.
+//  Created by Tharaka Mohotti on 2024-03-13.
 //
 
 import SwiftUI
 
-struct ProductModel:  Identifiable, Equatable {
-    var id: Int = 0
+struct OrderItemModel:  Identifiable, Equatable {
+    var id: UUID = UUID()
     var prodId: Int = 0
     var catId: Int = 0
     var brandId: Int = 0
@@ -34,7 +34,7 @@ struct ProductModel:  Identifiable, Equatable {
     
 
     init(dict: NSDictionary) {
-        self.id = dict.value(forKey: "prod_id") as? Int ?? 0
+        
         self.prodId = dict.value(forKey: "prod_id") as? Int ?? 0
         self.catId = dict.value(forKey: "cat_id") as? Int ?? 0
         self.brandId = dict.value(forKey: "brand_id") as? Int ?? 0
@@ -60,7 +60,7 @@ struct ProductModel:  Identifiable, Equatable {
         self.endDate = (dict.value(forKey: "end_date") as? String ?? "").stringDateToDate() ?? Date()
     }
     
-    static func == (lhs: ProductModel, rhs: ProductModel) -> Bool {
+    static func == (lhs: OrderItemModel, rhs: OrderItemModel) -> Bool {
         return lhs.id == rhs.id
     }
 }
