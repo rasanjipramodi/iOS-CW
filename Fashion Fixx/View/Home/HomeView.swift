@@ -41,10 +41,14 @@ struct HomeView: View {
                         ForEach (homeVM.offerArr, id: \.id) {
                             pObj in
                             
-                            ProductCell{(pObj: pObj, didAddCart: {
+                            ProductCell(pObj: pObj, didAddCart: {
                                 
+                                CartViewModel.serviceCallAddToCart(prodId: pObj.prodId, qty: 1) { isDone, msg in
+                                    
+                                    self.homeVM.errorMessage = msg
+                                    self.homeVM.showError = true
+                                }
                             })
-                            }
                         }
                     }
                     .padding(.horizontal, 20)
@@ -63,7 +67,11 @@ struct HomeView: View {
                             pObj in
                             
                             ProductCell(pObj: pObj, didAddCart: {
-                                
+                                CartViewModel.serviceCallAddToCart(prodId: pObj.prodId, qty: 1) { isDone, msg in
+                                    
+                                    self.homeVM.errorMessage = msg
+                                    self.homeVM.showError = true
+                                }
                             })
                         }
                     }
@@ -72,7 +80,7 @@ struct HomeView: View {
                 }
                 
                 SectionTitleAll(title: "Kidswear", titleAll: "See All") {
-
+                    
                 }
                 .padding(.horizontal, 20)
                 
@@ -85,7 +93,7 @@ struct HomeView: View {
                                 
                             }
                         }
-                        
+                    
                     }
                     .padding(.horizontal, 20)
                     .padding(.vertical, 4)
@@ -98,7 +106,11 @@ struct HomeView: View {
                             pObj in
                             
                             ProductCell(pObj: pObj, didAddCart: {
-
+                                CartViewModel.serviceCallAddToCart(prodId: pObj.prodId, qty: 1) { isDone, msg in
+                                    
+                                    self.homeVM.errorMessage = msg
+                                    self.homeVM.showError = true
+                                }
                             })
                         }
                     }
@@ -109,9 +121,9 @@ struct HomeView: View {
                 
             }
         }
-//        .alert(isPresented: $homeVM.showError, content: {
-//            Alert(title: Text(Globs.AppName), message: Text(homeVM.errorMessage), dismissButton: .default(Text("OK")) )
-//        })
+        .alert(isPresented: $homeVM.showError, content: {
+            Alert(title: Text(Globs.AppName), message: Text(homeVM.errorMessage), dismissButton: .default(Text("OK")) )
+        })
         .ignoresSafeArea()
     }
 }

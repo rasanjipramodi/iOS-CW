@@ -14,6 +14,7 @@ struct Fashion_FixxApp: App {
     
     var body: some Scene {
         WindowGroup {
+            
             NavigationView{
                 
                 if mainVM.isUserLogin{

@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 import SDWebImageSwiftUI
 
 struct ProductDetailView: View {
@@ -140,13 +139,13 @@ struct ProductDetailView: View {
                 
                 VStack{
                     HStack{
-                        Text("Properties")
+                        Text("Colors")
                             .font(.customfont(.semibold, fontSize: 16))
                             .foregroundColor(.primaryText)
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         
                         
-                        Text(detailVM.pObj.name)
+                        Text(detailVM.pObj.unitColor)
                             .font(.customfont(.semibold, fontSize: 10))
                             .foregroundColor(.secondaryText)
                             .padding(8)
@@ -155,12 +154,12 @@ struct ProductDetailView: View {
                         
                         Button {
                             withAnimation {
-                                detailVM.showProperty()
+                                detailVM.showColor()
                             }
                             
                         } label: {
                             
-                            Image( detailVM.isShowProperty ? "detail_open" : "next"  )
+                            Image( detailVM.isShowColor ? "detail_open" : "next"  )
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 15, height: 15)
@@ -170,17 +169,17 @@ struct ProductDetailView: View {
 
                     }
                     
-                    if(detailVM.isShowProperty) {
+                    if(detailVM.isShowColor) {
                         LazyVStack {
                             
-                            ForEach( detailVM.propertyArr , id: \.id) { nObj in
+                            ForEach( detailVM.colorArr , id: \.id) { nObj in
                                 HStack{
-                                    Text( nObj.propertyName )
+                                    Text( nObj.colorName )
                                         .font(.customfont(.semibold, fontSize: 15))
                                         .foregroundColor(.secondaryText)
                                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                                     
-                                    Text( nObj.propertyValue )
+                                    Text( nObj.colorValue )
                                         .font(.customfont(.semibold, fontSize: 15))
                                         .foregroundColor(.primaryText)
                                 }
@@ -233,14 +232,14 @@ struct ProductDetailView: View {
                 }
                 .padding(.horizontal, 20)
                 
-                RoundButton(title: "Add To Basket") {
-//                    CartViewModel.serviceCallAddToCart(prodId: detailVM.pObj.prodId, qty: detailVM.qty) { isDone, msg  in
-//                        
-//                        detailVM.qty = 1
-//                        
-//                        self.detailVM.errorMessage = msg
-//                        self.detailVM.showError = true
-//                    }
+                RoundButton(title: "Add To Cart") {
+                    CartViewModel.serviceCallAddToCart(prodId: detailVM.pObj.prodId, qty: detailVM.qty) { isDone, msg  in
+                        
+                        detailVM.qty = 1
+                        
+                        self.detailVM.errorMessage = msg
+                        self.detailVM.showError = true
+                    }
                 }
                 .padding( 20)
                 
