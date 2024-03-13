@@ -18,7 +18,7 @@ struct WelcomeView: View {
             VStack{
                 Spacer()
                 
-                Image("app_logo")
+                Image("logo_light")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 60, height: 60)
@@ -29,7 +29,7 @@ struct WelcomeView: View {
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                 
-                Text( "Ger your groceries in as fast as one hour")
+                Text( "")
                     .font(.customfont(.medium, fontSize: 16))
                     .foregroundColor(.white.opacity(0.7))
                     .multilineTextAlignment(.center)
