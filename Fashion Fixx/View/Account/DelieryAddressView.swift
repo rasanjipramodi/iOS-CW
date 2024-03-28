@@ -170,5 +170,4 @@ struct DelieryAddressView: View {
     NavigationView {
         DelieryAddressView()
     }
-    }
 }
