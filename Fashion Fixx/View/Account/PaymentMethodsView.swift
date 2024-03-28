@@ -133,12 +133,8 @@ struct PaymentMethodsView: View {
     }
 }
 
-struct PaymentMethodsView_Previews: PreviewProvider {
-    static var previews: some View {
-        
-        NavigationView {
-            PaymentMethodsView()
-        }
-        
+#Preview {
+    NavigationView {
+        PaymentMethodsView()
     }
 }

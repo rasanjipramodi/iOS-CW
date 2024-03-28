@@ -166,11 +166,9 @@ struct DelieryAddressView: View {
     }
 }
 
-struct DelieryAddressView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationView {
-            DelieryAddressView()
-        }
-        
+#Preview {
+    NavigationView {
+        DelieryAddressView()
+    }
     }
 }
