@@ -161,13 +161,16 @@ struct DelieryAddressView: View {
         }
         .navigationTitle("")
         .navigationBarHidden(true)
-        .navigationBarBackButtonHidden(true)        
+        .navigationBarBackButtonHidden(true)
         .ignoresSafeArea()
     }
 }
 
-#Preview {
-    NavigationView {
-        DelieryAddressView()
+struct DelieryAddressView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationView {
+            DelieryAddressView()
+        }
+        
     }
 }

@@ -21,8 +21,8 @@ struct CartItemModel:  Identifiable, Equatable {
     var name: String = ""
     var unitName: String = ""
     var unitValue: String = ""
-    var unitColor: String = ""
-    var unitSize: String = ""
+    var size: String = ""
+    var color: String = ""
     var image: String = ""
     var catName: String = ""
     var typeName: String = ""
@@ -51,8 +51,8 @@ struct CartItemModel:  Identifiable, Equatable {
         self.name = dict.value(forKey: "name") as? String ?? ""
         self.unitName = dict.value(forKey: "unit_name") as? String ?? ""
         self.unitValue = dict.value(forKey: "unit_value") as? String ?? ""
-        self.unitColor = dict.value(forKey: "unitColor") as? String ?? ""
-        self.unitSize = dict.value(forKey: "unitSize") as? String ?? ""
+        self.size = dict.value(forKey: "size") as? String ?? ""
+        self.color = dict.value(forKey: "color") as? String ?? ""
         self.image = dict.value(forKey: "image") as? String ?? ""
         self.catName = dict.value(forKey: "cat_name") as? String ?? ""
         self.brandName = dict.value(forKey: "brand_name") as? String ?? ""
@@ -69,4 +69,5 @@ struct CartItemModel:  Identifiable, Equatable {
         return lhs.id == rhs.id
     }
 }
+
 

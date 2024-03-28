@@ -15,7 +15,6 @@ struct AddDeliveryAddressView: View {
     
     var body: some View {
         ZStack {
-            
             ScrollView{
                 VStack(spacing: 15){
                     
@@ -47,19 +46,20 @@ struct AddDeliveryAddressView: View {
                     }
                     
                     
-                    LineTextField(title: "Name", placholder: "Enter you name" , txt: $addressVM.txtName)
+                    LineTextField(placholder: "Enter you name" , txt: $addressVM.txtName)
                     
-                    LineTextField(title: "Mobile", placholder: "Enter you mobile number", txt: $addressVM.txtMobile, keyboardType: .numberPad)
+                    LineTextField(placholder: "Enter you mobile number", txt: $addressVM.txtMobile, keyboardType: .numberPad)
                     
-                    LineTextField(title: "Address Line", placholder: "Enter you address" , txt: $addressVM.txtAddress)
+                    LineTextField(placholder: "Enter you address" , txt: $addressVM.txtAddress)
                     
                     HStack{
-                        LineTextField(title: "City", placholder: "Enter you city" , txt: $addressVM.txtCity)
-                        LineTextField(title: "State", placholder: "Enter you state" , txt: $addressVM.txtState)
+                        LineTextField(placholder: "Enter you city" , txt: $addressVM.txtCity)
+                        
+                        LineTextField(placholder: "Enter you state" , txt: $addressVM.txtState)
                     }
                    
                     
-                    LineTextField(title: "Postal Code", placholder: "Enter you postal code" , txt: $addressVM.txtPostalCode)
+                    LineTextField(placholder: "Enter you postal code" , txt: $addressVM.txtPostalCode)
                     
                     RoundButton(title: isEdit ? "Update Address" : "Add Address") {
                         if(isEdit) {

@@ -20,7 +20,7 @@ struct Fashion_FixxApp: App {
                 if mainVM.isUserLogin{
                     MainTabView()
                 }else{
-                    LoginView()
+                    WelcomeView()
                 }
             }
         }

@@ -31,7 +31,7 @@ struct HomeView: View {
                     .frame(height: 115)
                     .padding(.horizontal, 20)
                 
-                SectionTitleAll(title: "Exclusive offer", titleAll: "See All") {
+                SectionTitleAll(title: "New Arrivals", titleAll: "See All") {
                     
                 }
                 .padding(.horizontal, 20)
@@ -79,26 +79,26 @@ struct HomeView: View {
                     .padding(.vertical, 4)
                 }
                 
-                SectionTitleAll(title: "Kidswear", titleAll: "See All") {
-                    
-                }
-                .padding(.horizontal, 20)
-                
-                ScrollView(.horizontal, showsIndicators: false ) {
-                    LazyHStack(spacing: 15) {
-                        ForEach (homeVM.typeArr, id: \.id) {
-                            tObj in
-                            
-                            CategoryCell(tObj: tObj) {
-                                
-                            }
-                        }
-                    
-                    }
-                    .padding(.horizontal, 20)
-                    .padding(.vertical, 4)
-                }
-                .padding(.bottom, 8)
+//                SectionTitleAll(title: "", titleAll: "See All") {
+//                    
+//                }
+//                .padding(.horizontal, 20)
+//                
+//                ScrollView(.horizontal, showsIndicators: false ) {
+//                    LazyHStack(spacing: 15) {
+//                        ForEach (homeVM.typeArr, id: \.id) {
+//                            tObj in
+//                            
+//                            CategoryCell(tObj: tObj) {
+//                                
+//                            }
+//                        }
+//                    
+//                    }
+//                    .padding(.horizontal, 20)
+//                    .padding(.vertical, 4)
+//                }
+//                .padding(.bottom, 8)
                 
                 ScrollView(.horizontal, showsIndicators: false ) {
                     LazyHStack(spacing: 15) {

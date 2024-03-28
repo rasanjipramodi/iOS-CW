@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct AccountView: View {
+    @StateObject var myVM = MyDetailsViewModel.shared
+    @StateObject var loginVM = MainViewModel.shared;
+    
     var body: some View {
         ZStack{
             VStack{
@@ -20,22 +23,20 @@ struct AccountView: View {
                     VStack{
                         
                         HStack{
-                            Text("Username")
+                            Text(myVM.txtName)
                                 .font(.customfont(.bold, fontSize: 20))
                                 .foregroundColor(.primaryText)
                             
-                            Image(systemName: "pencil")
-                                .foregroundColor(.primaryColor)
+//                            Image(systemName: "pencil")
+//                                .foregroundColor(.primaryColor)
                             
                             Spacer()
                         }
                         
-                        Text("test@gmail.com")
+                        Text(loginVM.txtEmail)
                             .font(.customfont(.regular, fontSize: 16))
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading )
                             .accentColor(.secondaryText)
-                        
-                        
                             
                     }
                 }
@@ -77,25 +78,25 @@ struct AccountView: View {
                                 AccountRow(title: "Payment Methods", icon: "paymenth_methods")
                             }
 
-                            NavigationLink {
-                                PromoCodeView()
-                            } label: {
-                                AccountRow(title: "Promo Code", icon: "a_promocode")
-                            }
+//                            NavigationLink {
+//                                PromoCodeView()
+//                            } label: {
+//                                AccountRow(title: "Promo Code", icon: "a_promocode")
+//                            }
                             
                             
                         }
                         
-                        VStack{
-                            NavigationLink {
-                                NotificationView()
-                            } label: {
-                                AccountRow(title: "Notifications", icon: "a_noitification")
-                            }
-                           
-                            AccountRow(title: "Help", icon: "a_help")
-                            AccountRow(title: "About", icon: "a_about")
-                        }
+//                        VStack{
+//                            NavigationLink {
+//                                NotificationView()
+//                            } label: {
+//                                AccountRow(title: "Notifications", icon: "a_noitification")
+//                            }
+//                           
+//                            AccountRow(title: "Help", icon: "a_help")
+//                            AccountRow(title: "About", icon: "a_about")
+//                        }
                         
                         Button {
                             MainViewModel.shared.logout()
@@ -103,7 +104,7 @@ struct AccountView: View {
                             ZStack {
                                 Text("Log Out")
                                     .font(.customfont(.semibold, fontSize: 18))
-                                    .foregroundColor(.primaryApp)
+                                    .foregroundColor(.primaryColor)
                                     .multilineTextAlignment(.center)
                                 
                                 HStack{

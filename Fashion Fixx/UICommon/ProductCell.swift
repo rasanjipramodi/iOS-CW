@@ -16,7 +16,7 @@ struct ProductCell: View {
     
     var body: some View {
         NavigationLink {
-            //            ProductDetailView(detailVM:  ProductDetailViewModel(prodObj: pObj) )
+            ProductDetailView(detailVM:  ProductDetailViewModel(prodObj: pObj) )
         } label: {
             VStack{
                 

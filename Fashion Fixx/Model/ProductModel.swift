@@ -19,8 +19,8 @@ struct ProductModel:  Identifiable, Equatable {
     var name: String = ""
     var unitName: String = ""
     var unitValue: String = ""
-    var unitColor: String = ""
-    var unitSize: String = ""
+    var size: String = ""
+    var color: String = ""
     var image: String = ""
     var catName: String = ""
     var typeName: String = ""
@@ -42,13 +42,12 @@ struct ProductModel:  Identifiable, Equatable {
         self.orderId = dict.value(forKey: "order_id") as? Int ?? 0
         self.qty = dict.value(forKey: "qty") as? Int ?? 0
         self.isFav = dict.value(forKey: "is_fav") as? Int ?? 0 == 1
-        
         self.detail = dict.value(forKey: "detail") as? String ?? ""
         self.name = dict.value(forKey: "name") as? String ?? ""
         self.unitName = dict.value(forKey: "unit_name") as? String ?? ""
         self.unitValue = dict.value(forKey: "unit_value") as? String ?? ""
-        self.unitColor = dict.value(forKey: "unitColor") as? String ?? ""
-        self.unitSize = dict.value(forKey: "unitSize") as? String ?? ""
+        self.size = dict.value(forKey: "size") as? String ?? ""
+        self.color = dict.value(forKey: "color") as? String ?? ""
         self.image = dict.value(forKey: "image") as? String ?? ""
         self.catName = dict.value(forKey: "cat_name") as? String ?? ""
         self.typeName = dict.value(forKey: "type_name") as? String ?? ""

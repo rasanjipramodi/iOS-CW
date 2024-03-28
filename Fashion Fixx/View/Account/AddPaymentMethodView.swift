@@ -20,15 +20,16 @@ struct AddPaymentMethodView: View {
                     
                                         
                     
-                    LineTextField(title: "Name", placholder: "Enter you name" , txt: $payVM.txtName)
+                    LineTextField(placholder: "Enter you name" , txt: $payVM.txtName)
                     
-                    LineTextField(title: "Card Number", placholder: "Enter card number", txt: $payVM.txtCardNumber, keyboardType: .numberPad)
+                    LineTextField(placholder: "Enter card number", txt: $payVM.txtCardNumber, keyboardType: .numberPad)
                     
                    
                     
                     HStack{
-                        LineTextField(title: "MM", placholder: "Enter Month" , txt: $payVM.txtCardMonth, keyboardType: .numberPad)
-                        LineTextField(title: "YYYY", placholder: "Enter Year" , txt: $payVM.txtCardYear, keyboardType: .numberPad)
+                        LineTextField(placholder: "Enter Month" , txt: $payVM.txtCardMonth, keyboardType: .numberPad)
+                        
+                        LineTextField(placholder: "Enter Year" , txt: $payVM.txtCardYear, keyboardType: .numberPad)
                     }
                    
                     

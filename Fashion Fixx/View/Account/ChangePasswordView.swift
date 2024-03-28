@@ -20,13 +20,13 @@ struct ChangePasswordView: View {
                 VStack(spacing: 15){
                     
                     
-                    LineSecureField( title: "Current Password", placholder: "Enter your current password", txt: $myVM.txtCurrentPassword, isShowPassword: $myVM.isCurrentPassword)
+                    LineSecureField(placholder: "Enter your current password", txt: $myVM.txtCurrentPassword, isShowPassword: $myVM.isCurrentPassword)
                         .padding(.bottom, .screenWidth * 0.02)
                     
-                    LineSecureField( title: "New Password", placholder: "Enter your new password", txt: $myVM.txtNewPassword, isShowPassword: $myVM.isNewPassword)
+                    LineSecureField(placholder: "Enter your new password", txt: $myVM.txtNewPassword, isShowPassword: $myVM.isNewPassword)
                         .padding(.bottom, .screenWidth * 0.02)
                     
-                    LineSecureField( title: "Confirm Password", placholder: "Enter your confirm password", txt: $myVM.txtConfirmPassword, isShowPassword: $myVM.isConfirmPassword)
+                    LineSecureField(placholder: "Enter your confirm password", txt: $myVM.txtConfirmPassword, isShowPassword: $myVM.isConfirmPassword)
                         .padding(.bottom, .screenWidth * 0.02)
                     
                     RoundButton(title: "Update") {

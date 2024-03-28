@@ -11,7 +11,6 @@ import SDWebImageSwiftUI
 struct CartItemRow: View {
     @State var cObj: CartItemModel = CartItemModel(dict: [:])
     
-    
     var body: some View {
         VStack{
             HStack(spacing: 15){

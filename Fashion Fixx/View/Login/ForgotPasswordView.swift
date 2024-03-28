@@ -43,7 +43,7 @@ struct ForgotPasswordView: View {
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(.bottom, .screenWidth * 0.1)
                 
-                LineTextField( title: "Email", placholder: "Enter your email address", txt: $forgotVM.txtEmail, keyboardType: .emailAddress)
+                LineTextField(placholder: "Enter your email address", txt: $forgotVM.txtEmail, keyboardType: .emailAddress)
                     .padding(.bottom, .screenWidth * 0.07)
                 
                 

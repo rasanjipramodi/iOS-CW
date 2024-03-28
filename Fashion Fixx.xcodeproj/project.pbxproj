@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7197C7C22BB035A9001D7D63 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197C7C12BB035A9001D7D63 /* PromoCodeView.swift */; };
 		71D7171B2B9F036E009B1FD3 /* Fashion_FixxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7171A2B9F036E009B1FD3 /* Fashion_FixxApp.swift */; };
 		71D7171F2B9F0371009B1FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D7171E2B9F0371009B1FD3 /* Assets.xcassets */; };
 		71D717222B9F0371009B1FD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D717212B9F0371009B1FD3 /* Preview Assets.xcassets */; };
@@ -49,7 +50,6 @@
 		71D717992BA017CE009B1FD3 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 71D717982BA017CE009B1FD3 /* SDWebImageSwiftUI */; };
 		71D7179B2BA01866009B1FD3 /* ProductDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7179A2BA01866009B1FD3 /* ProductDetailViewModel.swift */; };
 		71D7179D2BA07C5D009B1FD3 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7179C2BA07C5D009B1FD3 /* ProductDetailView.swift */; };
-		71D7179F2BA07E7A009B1FD3 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D7179E2BA07E7A009B1FD3 /* ColorModel.swift */; };
 		71D717A12BA07F42009B1FD3 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717A02BA07F42009B1FD3 /* ImageModel.swift */; };
 		71D717A32BA0FF5B009B1FD3 /* ExploreCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717A22BA0FF5B009B1FD3 /* ExploreCategoryModel.swift */; };
 		71D717A52BA0FF74009B1FD3 /* CartItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717A42BA0FF74009B1FD3 /* CartItemModel.swift */; };
@@ -73,12 +73,23 @@
 		71D717CC2BA1452E009B1FD3 /* MyOrdersDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717C22BA1452E009B1FD3 /* MyOrdersDetailView.swift */; };
 		71D717CD2BA1452E009B1FD3 /* PaymentMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717C32BA1452E009B1FD3 /* PaymentMethodsView.swift */; };
 		71D717CE2BA1452E009B1FD3 /* AddPaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717C42BA1452E009B1FD3 /* AddPaymentMethodView.swift */; };
-		71D717CF2BA1452E009B1FD3 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717C52BA1452E009B1FD3 /* PromoCodeView.swift */; };
 		71D717D22BA16012009B1FD3 /* OrderAccpetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717D02BA16012009B1FD3 /* OrderAccpetView.swift */; };
 		71D717D32BA16012009B1FD3 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717D12BA16012009B1FD3 /* CheckoutView.swift */; };
 		71D717D52BA16153009B1FD3 /* ExploreItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717D42BA16153009B1FD3 /* ExploreItemsView.swift */; };
 		71D717D72BA163BA009B1FD3 /* ForgotPasswordSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717D62BA163BA009B1FD3 /* ForgotPasswordSetView.swift */; };
 		71D717D92BA163E1009B1FD3 /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717D82BA163E1009B1FD3 /* OTPView.swift */; };
+		71D717E62BA18236009B1FD3 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717DA2BA18235009B1FD3 /* CartViewModel.swift */; };
+		71D717E72BA18236009B1FD3 /* MyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717DB2BA18235009B1FD3 /* MyDetailsViewModel.swift */; };
+		71D717E82BA18236009B1FD3 /* MyOrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717DC2BA18235009B1FD3 /* MyOrdersViewModel.swift */; };
+		71D717E92BA18236009B1FD3 /* PromoCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717DD2BA18235009B1FD3 /* PromoCodeViewModel.swift */; };
+		71D717EA2BA18236009B1FD3 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717DE2BA18235009B1FD3 /* NotificationViewModel.swift */; };
+		71D717EB2BA18236009B1FD3 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717DF2BA18236009B1FD3 /* PaymentViewModel.swift */; };
+		71D717EC2BA18236009B1FD3 /* DeliveryAddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717E02BA18236009B1FD3 /* DeliveryAddressViewModel.swift */; };
+		71D717ED2BA18236009B1FD3 /* ExploreItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717E12BA18236009B1FD3 /* ExploreItemViewModel.swift */; };
+		71D717EE2BA18236009B1FD3 /* FavouriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717E22BA18236009B1FD3 /* FavouriteViewModel.swift */; };
+		71D717EF2BA18236009B1FD3 /* MyOrderDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717E32BA18236009B1FD3 /* MyOrderDetailViewModel.swift */; };
+		71D717F02BA18236009B1FD3 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717E42BA18236009B1FD3 /* ExploreViewModel.swift */; };
+		71D717F12BA18236009B1FD3 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D717E52BA18236009B1FD3 /* ForgotPasswordViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +110,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7197C7C12BB035A9001D7D63 /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
 		71D717172B9F036E009B1FD3 /* Fashion Fixx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fashion Fixx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D7171A2B9F036E009B1FD3 /* Fashion_FixxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fashion_FixxApp.swift; sourceTree = "<group>"; };
 		71D7171E2B9F0371009B1FD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,7 +155,6 @@
 		71D717952BA016B7009B1FD3 /* TypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeModel.swift; sourceTree = "<group>"; };
 		71D7179A2BA01866009B1FD3 /* ProductDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewModel.swift; sourceTree = "<group>"; };
 		71D7179C2BA07C5D009B1FD3 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
-		71D7179E2BA07E7A009B1FD3 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 		71D717A02BA07F42009B1FD3 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
 		71D717A22BA0FF5B009B1FD3 /* ExploreCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCategoryModel.swift; sourceTree = "<group>"; };
 		71D717A42BA0FF74009B1FD3 /* CartItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemModel.swift; sourceTree = "<group>"; };
@@ -167,12 +178,23 @@
 		71D717C22BA1452E009B1FD3 /* MyOrdersDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrdersDetailView.swift; sourceTree = "<group>"; };
 		71D717C32BA1452E009B1FD3 /* PaymentMethodsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodsView.swift; sourceTree = "<group>"; };
 		71D717C42BA1452E009B1FD3 /* AddPaymentMethodView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodView.swift; sourceTree = "<group>"; };
-		71D717C52BA1452E009B1FD3 /* PromoCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
 		71D717D02BA16012009B1FD3 /* OrderAccpetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderAccpetView.swift; sourceTree = "<group>"; };
 		71D717D12BA16012009B1FD3 /* CheckoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		71D717D42BA16153009B1FD3 /* ExploreItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreItemsView.swift; sourceTree = "<group>"; };
 		71D717D62BA163BA009B1FD3 /* ForgotPasswordSetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSetView.swift; sourceTree = "<group>"; };
 		71D717D82BA163E1009B1FD3 /* OTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
+		71D717DA2BA18235009B1FD3 /* CartViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		71D717DB2BA18235009B1FD3 /* MyDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDetailsViewModel.swift; sourceTree = "<group>"; };
+		71D717DC2BA18235009B1FD3 /* MyOrdersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrdersViewModel.swift; sourceTree = "<group>"; };
+		71D717DD2BA18235009B1FD3 /* PromoCodeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoCodeViewModel.swift; sourceTree = "<group>"; };
+		71D717DE2BA18235009B1FD3 /* NotificationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		71D717DF2BA18236009B1FD3 /* PaymentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		71D717E02BA18236009B1FD3 /* DeliveryAddressViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryAddressViewModel.swift; sourceTree = "<group>"; };
+		71D717E12BA18236009B1FD3 /* ExploreItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreItemViewModel.swift; sourceTree = "<group>"; };
+		71D717E22BA18236009B1FD3 /* FavouriteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouriteViewModel.swift; sourceTree = "<group>"; };
+		71D717E32BA18236009B1FD3 /* MyOrderDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderDetailViewModel.swift; sourceTree = "<group>"; };
+		71D717E42BA18236009B1FD3 /* ExploreViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		71D717E52BA18236009B1FD3 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,22 +301,22 @@
 		71D7174E2B9F0759009B1FD3 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
-				71D717562B9F10E9009B1FD3 /* UIExtention.swift */,
+				71D717B82BA13FF3009B1FD3 /* AccountRow.swift */,
+				71D717B62BA13FDF009B1FD3 /* CartItemRow.swift */,
+				71D717912BA0157B009B1FD3 /* CategoryCell.swift */,
 				71D7175F2B9F3DDD009B1FD3 /* CountryPickerUI.swift */,
-				71D717632B9F4107009B1FD3 /* LineTextField.swift */,
-				71D717672B9FCD4F009B1FD3 /* RoundButton.swift */,
-				71D717692B9FD018009B1FD3 /* ServiceCall.swift */,
+				71D717B42BA13FC7009B1FD3 /* ExploreCategoryCell.swift */,
+				71D717B22BA13FB6009B1FD3 /* FavouriteRow.swift */,
 				71D7176B2B9FD1C4009B1FD3 /* Globs.swift */,
-				71D717802BA005D1009B1FD3 /* TabButton.swift */,
+				71D717632B9F4107009B1FD3 /* LineTextField.swift */,
+				71D717BA2BA14009009B1FD3 /* OrderItemRow.swift */,
+				71D7178F2BA014A5009B1FD3 /* ProductCell.swift */,
+				71D717672B9FCD4F009B1FD3 /* RoundButton.swift */,
 				71D7178B2BA0099E009B1FD3 /* SearchTextField.swift */,
 				71D7178D2BA01244009B1FD3 /* SectionTitleAll.swift */,
-				71D7178F2BA014A5009B1FD3 /* ProductCell.swift */,
-				71D717912BA0157B009B1FD3 /* CategoryCell.swift */,
-				71D717B22BA13FB6009B1FD3 /* FavouriteRow.swift */,
-				71D717B42BA13FC7009B1FD3 /* ExploreCategoryCell.swift */,
-				71D717B62BA13FDF009B1FD3 /* CartItemRow.swift */,
-				71D717B82BA13FF3009B1FD3 /* AccountRow.swift */,
-				71D717BA2BA14009009B1FD3 /* OrderItemRow.swift */,
+				71D717692B9FD018009B1FD3 /* ServiceCall.swift */,
+				71D717802BA005D1009B1FD3 /* TabButton.swift */,
+				71D717562B9F10E9009B1FD3 /* UIExtention.swift */,
 			);
 			path = UICommon;
 			sourceTree = "<group>";
@@ -302,9 +324,21 @@
 		71D7174F2B9F0763009B1FD3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				71D717612B9F3F7F009B1FD3 /* MainViewModel.swift */,
+				71D717DA2BA18235009B1FD3 /* CartViewModel.swift */,
+				71D717E02BA18236009B1FD3 /* DeliveryAddressViewModel.swift */,
+				71D717E12BA18236009B1FD3 /* ExploreItemViewModel.swift */,
+				71D717E42BA18236009B1FD3 /* ExploreViewModel.swift */,
+				71D717E22BA18236009B1FD3 /* FavouriteViewModel.swift */,
+				71D717E52BA18236009B1FD3 /* ForgotPasswordViewModel.swift */,
 				71D717782B9FFBC4009B1FD3 /* HomeViewModel.swift */,
+				71D717612B9F3F7F009B1FD3 /* MainViewModel.swift */,
+				71D717DB2BA18235009B1FD3 /* MyDetailsViewModel.swift */,
+				71D717E32BA18236009B1FD3 /* MyOrderDetailViewModel.swift */,
+				71D717DC2BA18235009B1FD3 /* MyOrdersViewModel.swift */,
+				71D717DE2BA18235009B1FD3 /* NotificationViewModel.swift */,
+				71D717DF2BA18236009B1FD3 /* PaymentViewModel.swift */,
 				71D7179A2BA01866009B1FD3 /* ProductDetailViewModel.swift */,
+				71D717DD2BA18235009B1FD3 /* PromoCodeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -315,7 +349,6 @@
 				71D717702B9FEE18009B1FD3 /* UserModel.swift */,
 				71D717932BA0161E009B1FD3 /* ProductModel.swift */,
 				71D717952BA016B7009B1FD3 /* TypeModel.swift */,
-				71D7179E2BA07E7A009B1FD3 /* ColorModel.swift */,
 				71D717A02BA07F42009B1FD3 /* ImageModel.swift */,
 				71D717A22BA0FF5B009B1FD3 /* ExploreCategoryModel.swift */,
 				71D717A42BA0FF74009B1FD3 /* CartItemModel.swift */,
@@ -421,7 +454,7 @@
 				71D717C12BA1452E009B1FD3 /* MyOrdersView.swift */,
 				71D717C02BA1452D009B1FD3 /* NotificationView.swift */,
 				71D717C32BA1452E009B1FD3 /* PaymentMethodsView.swift */,
-				71D717C52BA1452E009B1FD3 /* PromoCodeView.swift */,
+				7197C7C12BB035A9001D7D63 /* PromoCodeView.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -576,8 +609,10 @@
 				71D7175B2B9F1EAF009B1FD3 /* SignupView.swift in Sources */,
 				71D717A32BA0FF5B009B1FD3 /* ExploreCategoryModel.swift in Sources */,
 				71D717572B9F10E9009B1FD3 /* UIExtention.swift in Sources */,
+				71D717E92BA18236009B1FD3 /* PromoCodeViewModel.swift in Sources */,
 				71D717942BA0161E009B1FD3 /* ProductModel.swift in Sources */,
 				71D717C92BA1452E009B1FD3 /* MyDetailsView.swift in Sources */,
+				71D717E82BA18236009B1FD3 /* MyOrdersViewModel.swift in Sources */,
 				71D717B72BA13FDF009B1FD3 /* CartItemRow.swift in Sources */,
 				71D717CA2BA1452E009B1FD3 /* NotificationView.swift in Sources */,
 				71D717792B9FFBC4009B1FD3 /* HomeViewModel.swift in Sources */,
@@ -587,9 +622,12 @@
 				71D717AD2BA0FFD1009B1FD3 /* MyOrderModel.swift in Sources */,
 				71D7177C2B9FFDE1009B1FD3 /* HomeView.swift in Sources */,
 				71D717842BA0066B009B1FD3 /* MyCartView.swift in Sources */,
+				71D717EE2BA18236009B1FD3 /* FavouriteViewModel.swift in Sources */,
 				71D717CC2BA1452E009B1FD3 /* MyOrdersDetailView.swift in Sources */,
 				71D717662B9F780C009B1FD3 /* ForgotPasswordView.swift in Sources */,
 				71D717CE2BA1452E009B1FD3 /* AddPaymentMethodView.swift in Sources */,
+				71D717F12BA18236009B1FD3 /* ForgotPasswordViewModel.swift in Sources */,
+				71D717ED2BA18236009B1FD3 /* ExploreItemViewModel.swift in Sources */,
 				71D717BB2BA14009009B1FD3 /* OrderItemRow.swift in Sources */,
 				71D717A92BA0FF9F009B1FD3 /* PromoCodeModel.swift in Sources */,
 				71D717D52BA16153009B1FD3 /* ExploreItemsView.swift in Sources */,
@@ -600,6 +638,8 @@
 				71D717B12BA0FFFB009B1FD3 /* NotificationModel.swift in Sources */,
 				71D717CD2BA1452E009B1FD3 /* PaymentMethodsView.swift in Sources */,
 				71D717712B9FEE18009B1FD3 /* UserModel.swift in Sources */,
+				71D717E72BA18236009B1FD3 /* MyDetailsViewModel.swift in Sources */,
+				71D717F02BA18236009B1FD3 /* ExploreViewModel.swift in Sources */,
 				71D717902BA014A5009B1FD3 /* ProductCell.swift in Sources */,
 				71D717D72BA163BA009B1FD3 /* ForgotPasswordSetView.swift in Sources */,
 				71D717922BA0157B009B1FD3 /* CategoryCell.swift in Sources */,
@@ -607,25 +647,29 @@
 				71D717602B9F3DDD009B1FD3 /* CountryPickerUI.swift in Sources */,
 				71D717A72BA0FF85009B1FD3 /* AddressModel.swift in Sources */,
 				71D7176F2B9FD738009B1FD3 /* UIKitExtension.swift in Sources */,
+				71D717EA2BA18236009B1FD3 /* NotificationViewModel.swift in Sources */,
 				71D7177F2B9FFE26009B1FD3 /* ExploreView.swift in Sources */,
+				71D717EB2BA18236009B1FD3 /* PaymentViewModel.swift in Sources */,
 				71D717AF2BA0FFE2009B1FD3 /* OrderItemModel.swift in Sources */,
 				71D717592B9F141D009B1FD3 /* LoginView.swift in Sources */,
+				71D717EC2BA18236009B1FD3 /* DeliveryAddressViewModel.swift in Sources */,
 				71D717812BA005D1009B1FD3 /* TabButton.swift in Sources */,
 				71D717B52BA13FC7009B1FD3 /* ExploreCategoryCell.swift in Sources */,
 				71D7171B2B9F036E009B1FD3 /* Fashion_FixxApp.swift in Sources */,
 				71D717D32BA16012009B1FD3 /* CheckoutView.swift in Sources */,
 				71D7176A2B9FD018009B1FD3 /* ServiceCall.swift in Sources */,
+				71D717EF2BA18236009B1FD3 /* MyOrderDetailViewModel.swift in Sources */,
 				71D717622B9F3F80009B1FD3 /* MainViewModel.swift in Sources */,
 				71D717A52BA0FF74009B1FD3 /* CartItemModel.swift in Sources */,
 				71D717642B9F4107009B1FD3 /* LineTextField.swift in Sources */,
 				71D717732B9FF014009B1FD3 /* WelcomeView.swift in Sources */,
-				71D717CF2BA1452E009B1FD3 /* PromoCodeView.swift in Sources */,
 				71D717962BA016B7009B1FD3 /* TypeModel.swift in Sources */,
+				71D717E62BA18236009B1FD3 /* CartViewModel.swift in Sources */,
 				71D717B32BA13FB6009B1FD3 /* FavouriteRow.swift in Sources */,
 				71D717872BA00695009B1FD3 /* FavouriteView.swift in Sources */,
+				7197C7C22BB035A9001D7D63 /* PromoCodeView.swift in Sources */,
 				71D717C62BA1452E009B1FD3 /* AddDeliveryAddressView.swift in Sources */,
 				71D717B92BA13FF3009B1FD3 /* AccountRow.swift in Sources */,
-				71D7179F2BA07E7A009B1FD3 /* ColorModel.swift in Sources */,
 				71D717772B9FF04A009B1FD3 /* MainTabView.swift in Sources */,
 				71D717A12BA07F42009B1FD3 /* ImageModel.swift in Sources */,
 				71D717D22BA16012009B1FD3 /* OrderAccpetView.swift in Sources */,
@@ -717,7 +761,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -774,7 +818,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -795,6 +839,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Fashion-Fixx-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fashion Fixx";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -830,6 +876,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Fashion-Fixx-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fashion Fixx";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

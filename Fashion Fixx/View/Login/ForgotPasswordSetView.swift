@@ -44,10 +44,10 @@ struct ForgotPasswordSetView: View {
                     .padding(.bottom, .screenWidth * 0.1)
                 
                 
-                LineSecureField( title: "New Password", placholder: "Enter your new password", txt: $forgotVM.txtNewPassword, isShowPassword: $forgotVM.isNewPassword)
+                LineSecureField(placholder: "Enter your new password", txt: $forgotVM.txtNewPassword, isShowPassword: $forgotVM.isNewPassword)
                     .padding(.bottom, .screenWidth * 0.02)
                 
-                LineSecureField( title: "Confirm Password", placholder: "Enter your confirm password", txt: $forgotVM.txtConfirmPassword, isShowPassword: $forgotVM.isConfirmPassword)
+                LineSecureField(placholder: "Enter your confirm password", txt: $forgotVM.txtConfirmPassword, isShowPassword: $forgotVM.isConfirmPassword)
                     .padding(.bottom, .screenWidth * 0.04)
                 
                 

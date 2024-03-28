@@ -13,7 +13,7 @@ struct MyCartView: View {
         ZStack{
             
             if(cartVM.listArr.count == 0) {
-                Text("You Card is Empty")
+                Text("You Cart is Empty")
                     .font(.customfont(.bold, fontSize: 20))
             }
             
@@ -69,7 +69,7 @@ struct MyCartView: View {
                                     .foregroundColor(.white)
                                     .padding(.horizontal, 8)
                                     .padding(.vertical, 4)
-                                    .background(Color.darkGray.opacity(0.2))
+                                    .background(Color.darkBrown.opacity(0.2))
                                     .cornerRadius(5)
                             }
                             .padding(.trailing)
@@ -77,7 +77,7 @@ struct MyCartView: View {
                         
                     }
                     .frame( minWidth: 0, maxWidth: .infinity, minHeight: 60, maxHeight: 60 )
-                    .background( Color.primaryApp)
+                    .background( Color.primaryColor)
                     .cornerRadius(20)
                     .padding(.horizontal, 20)
                     .padding(.bottom, .bottomInsets + 80)

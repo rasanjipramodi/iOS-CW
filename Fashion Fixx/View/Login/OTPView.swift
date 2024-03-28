@@ -32,7 +32,7 @@ struct OTPView: View {
                 
                 
                 
-                LineTextField( title: "Code", placholder: "- - - -", txt: $forgotVM.txtResetCode, keyboardType: .phonePad)
+                LineTextField(placholder: "- - - -", txt: $forgotVM.txtResetCode, keyboardType: .phonePad)
                     .padding(.bottom, .screenWidth * 0.07)
                 
                 
@@ -42,7 +42,7 @@ struct OTPView: View {
                     } label: {
                         Text("Resend Code")
                             .font(.customfont(.bold, fontSize: 18))
-                            .foregroundColor(.primaryApp)
+                            .foregroundColor(.primaryColor)
                             
                     }
                     
@@ -58,7 +58,7 @@ struct OTPView: View {
                             .padding(15)
                     }
                     .foregroundColor(.white)
-                    .background(Color.primaryApp)
+                    .background(Color.primaryColor)
                     .cornerRadius(30)
                     
                 }

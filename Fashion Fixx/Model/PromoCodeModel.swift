@@ -21,6 +21,9 @@ struct PromoCodeModel: Identifiable, Equatable {
     var maxDiscountAmount: Double = 0.0
     var offerPrice: Double = 0.0
     
+    
+    
+    
     init(dict: NSDictionary) {
         self.id = dict.value(forKey: "promo_code_id") as? Int ?? 0
         self.title = dict.value(forKey: "title") as? String ?? ""

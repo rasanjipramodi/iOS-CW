@@ -21,7 +21,7 @@ struct MyDetailsView: View {
                 VStack(spacing: 15){
                     
                     
-                    LineTextField(title: "Name", placholder: "Enter you name" , txt: $myVM.txtName)
+                    LineTextField(placholder: "Enter you Name" , txt: $myVM.txtName)
                     
                     
                     VStack {
@@ -59,7 +59,7 @@ struct MyDetailsView: View {
                         
                     }
                     
-                    LineTextField(title: "Username", placholder: "Enter you username" , txt: $myVM.txtUsername)
+                    LineTextField(placholder: "Enter you username" , txt: $myVM.txtUsername)
                     
                    
                    
@@ -74,7 +74,7 @@ struct MyDetailsView: View {
                     } label: {
                         Text("Change Password")
                             .font(.customfont(.bold, fontSize: 18))
-                            .foregroundColor(.primaryApp)
+                            .foregroundColor(.primaryColor)
                     }
 
                     
@@ -131,5 +131,5 @@ struct MyDetailsView: View {
 }
 
 #Preview {
-    MyDetailsView
+    MyDetailsView()
 }

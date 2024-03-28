@@ -89,7 +89,7 @@ struct ProductDetailView: View {
                         }
                         
                         Spacer()
-                        Text( "$\(  (detailVM.pObj.offerPrice ?? detailVM.pObj.price) * Double(detailVM.qty) , specifier: "%.2f")"  )
+                        Text( "LKR\(  (detailVM.pObj.offerPrice ?? detailVM.pObj.price) * Double(detailVM.qty) , specifier: "%.2f")"  )
                             .font(.customfont(.bold, fontSize: 28))
                             .foregroundColor(.primaryText)
                             
@@ -139,61 +139,28 @@ struct ProductDetailView: View {
                 
                 VStack{
                     HStack{
-                        Text("Colors")
+                        Text("Size, Color")
                             .font(.customfont(.semibold, fontSize: 16))
                             .foregroundColor(.primaryText)
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                         
                         
-                        Text(detailVM.pObj.unitColor)
+                        Text(detailVM.pObj.color)
                             .font(.customfont(.semibold, fontSize: 10))
                             .foregroundColor(.secondaryText)
                             .padding(8)
                             .background( Color.placeholder.opacity(0.5) )
                             .cornerRadius(5)
                         
-                        Button {
-                            withAnimation {
-                                detailVM.showColor()
-                            }
-                            
-                        } label: {
-                            
-                            Image( detailVM.isShowColor ? "detail_open" : "next"  )
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 15, height: 15)
-                                .padding(15)
-                        }
-                        .foregroundColor(Color.primaryText)
-
+                        Text(detailVM.pObj.size)
+                            .font(.customfont(.semibold, fontSize: 10))
+                            .foregroundColor(.secondaryText)
+                            .padding(8)
+                            .background( Color.placeholder.opacity(0.5) )
+                            .cornerRadius(5)
+                            .padding(.horizontal, 20)
                     }
-                    
-                    if(detailVM.isShowColor) {
-                        LazyVStack {
-                            
-                            ForEach( detailVM.colorArr , id: \.id) { nObj in
-                                HStack{
-                                    Text( nObj.colorName )
-                                        .font(.customfont(.semibold, fontSize: 15))
-                                        .foregroundColor(.secondaryText)
-                                        .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                                    
-                                    Text( nObj.colorValue )
-                                        .font(.customfont(.semibold, fontSize: 15))
-                                        .foregroundColor(.primaryText)
-                                }
-                                
-                                Divider()
-                            }
-                            .padding(.vertical, 0)
-                           
-                            
-                        }
-                        .padding(.horizontal, 10)
-                    }
-                    
-                    
+               
                     Divider()
                 }
                 .padding(.horizontal, 20)
@@ -215,24 +182,11 @@ struct ProductDetailView: View {
                                 
                         }
                     }
-                    
-                    Button {
-                       
-                        
-                    } label: {
-                        
-                        Image( "next" )
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 15, height: 15)
-                            .padding(15)
-                    }
-                    .foregroundColor(Color.primaryText)
 
                 }
                 .padding(.horizontal, 20)
                 
-                RoundButton(title: "Add To Cart") {
+                RoundButton(title: "Add To Basket") {
                     CartViewModel.serviceCallAddToCart(prodId: detailVM.pObj.prodId, qty: detailVM.qty) { isDone, msg  in
                         
                         detailVM.qty = 1
@@ -291,4 +245,3 @@ struct ProductDetailView_Previews: PreviewProvider {
         ProductDetailView(detailVM: ProductDetailViewModel(prodObj: ProductModel(dict: ["":""])))
     }
 }
-

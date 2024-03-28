@@ -37,7 +37,7 @@ struct FavouriteView: View {
                    
                     Spacer()
                     
-                    Text("Favorites")
+                    Text("Favourites")
                         .font(.customfont(.bold, fontSize: 20))
                         .frame(height: 46)
                     Spacer()

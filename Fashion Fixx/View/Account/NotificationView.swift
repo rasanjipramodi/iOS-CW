@@ -91,7 +91,7 @@ struct NotificationView: View {
                     } label: {
                         Text("Read All")
                             .font(.customfont(.bold, fontSize: 16))
-                            .foregroundColor(.primaryApp)
+                            .foregroundColor(.primaryColor)
                     }
 
                     
