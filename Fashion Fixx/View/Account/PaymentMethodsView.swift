@@ -18,63 +18,63 @@ struct PaymentMethodsView: View {
     var body: some View {
         ZStack{
             
-//            ScrollView{
-//                LazyVStack(spacing: 15) {
-//                    ForEach( payVM.listArr , id: \.id, content: {
-//                        pObj in
-//                        
-//                        HStack(spacing: 15) {
-//                            
-//                            Image("paymenth_methods")
-//                                .resizable()
-//                                .scaledToFit()
-//                                .frame(width: 35, height: 35)
-//                            
-//                            VStack(spacing: 4){
-//                                Text(pObj.name)
-//                                    .font(.customfont(.bold, fontSize: 18))
-//                                    .foregroundColor(.primaryText)
-//                                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-//                                
-//                                Text("**** **** **** \(pObj.cardNumber) ")
-//                                    .font(.customfont(.medium, fontSize: 15))
-//                                    .foregroundColor(.primaryApp)
-//                                    .multilineTextAlignment( .leading)
-//                                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-//                                
-//                            }
-//                            
-//                            Button {
-//                                payVM.serviceCallRemove(pObj: pObj)
-//                            } label: {
-//                                Image("close")
-//                                    .resizable()
-//                                
-//                                    .scaledToFit()
-//                                    .frame(width: 20, height: 20)
-//                            }
-//                        }
-//                        .padding(15)
-//                        
-//                        .background(Color.white)
-//                        .cornerRadius(5)
-//                        .shadow(color: Color.black.opacity(0.15), radius: 2)
-//                        .onTapGesture {
-//                            if(isPicker) {
-//                                mode.wrappedValue.dismiss()
-//                                didSelect?(pObj)
-//                            }
-//                        }
-//                        
-//                        
-//                        
-//                    })
-//                }
-//                .padding(20)
-//                .padding(.top, .topInsets + 46)
-//                .padding(.bottom, .bottomInsets + 60)
-//                
-//            }
+            ScrollView{
+                LazyVStack(spacing: 15) {
+                    ForEach( payVM.listArr , id: \.id, content: {
+                        pObj in
+                        
+                        HStack(spacing: 15) {
+                            
+                            Image("paymenth_methods")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 35, height: 35)
+                            
+                            VStack(spacing: 4){
+                                Text(pObj.name)
+                                    .font(.customfont(.bold, fontSize: 18))
+                                    .foregroundColor(.primaryText)
+                                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                                
+                                Text("**** **** **** \(pObj.cardNumber) ")
+                                    .font(.customfont(.medium, fontSize: 15))
+                                    .foregroundColor(.primaryApp)
+                                    .multilineTextAlignment( .leading)
+                                    .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+                                
+                            }
+                            
+                            Button {
+                                payVM.serviceCallRemove(pObj: pObj)
+                            } label: {
+                                Image("close")
+                                    .resizable()
+                                
+                                    .scaledToFit()
+                                    .frame(width: 20, height: 20)
+                            }
+                        }
+                        .padding(15)
+                        
+                        .background(Color.white)
+                        .cornerRadius(5)
+                        .shadow(color: Color.black.opacity(0.15), radius: 2)
+                        .onTapGesture {
+                            if(isPicker) {
+                                mode.wrappedValue.dismiss()
+                                didSelect?(pObj)
+                            }
+                        }
+                        
+                        
+                        
+                    })
+                }
+                .padding(20)
+                .padding(.top, .topInsets + 46)
+                .padding(.bottom, .bottomInsets + 60)
+                
+            }
             
             
             VStack {
