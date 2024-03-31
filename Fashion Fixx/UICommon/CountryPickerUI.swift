@@ -2,7 +2,7 @@
 //  CountryPickerUI.swift
 //  Fashion Fixx
 //
-//  Created by Tharaka Mohotti on 2024-03-11.
+//  Created by Rasanji Pramodi on 2024-03-11.
 //
 
 import SwiftUI

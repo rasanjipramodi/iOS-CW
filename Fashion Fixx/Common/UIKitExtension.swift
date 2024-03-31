@@ -2,7 +2,7 @@
 //  UIKitExtension.swift
 //  Fashion Fixx
 //
-//  Created by Tharaka Mohotti on 2024-03-12.
+//  Created by Rasanji Pramodi on 2024-03-12.
 //
 
 import Foundation

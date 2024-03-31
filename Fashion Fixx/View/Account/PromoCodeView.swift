@@ -2,7 +2,7 @@
 //  PromoCodeView.swift
 //  Fashion Fixx
 //
-//  Created by Tharaka Mohotti on 2024-03-24.
+//  Created by Rasanji Pramodi on 2024-03-24.
 //
 
 import SwiftUI
